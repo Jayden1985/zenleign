@@ -1,0 +1,39 @@
+.item{
+padding:40px;
+margin:11px;
+width:300px;
+color:red;font-size:40px;
+}
+.itx1{position:absolute;
+border:solid gray 2px;
+top:200px;
+left:200px;
+color:blue; font-weight:bolder;}
+.itx2{position:absolute;
+border:solid gray 2px;
+top:200px;
+right:200px;
+color:blue; font-weight:bolder;}
+
+.itx3{position:absolute;
+border:solid gray 2px;
+top:0px;
+right:0px;
+color:blue; font-weight:bolder;}
+
+.rtx1{position:relative;
+border:solid gray 2px;
+top:200px;
+left:100px;
+color:blue; font-weight:bolder;}
+
+.rtx2{position:fixed;
+border:solid gray 2px;
+top:50px;
+left:700px;
+color:blue; font-weight:bolder;}
+.itemdx{position:relative;
+border:solid gray 2px;
+height:1000px;
+
+color:blue; font-weight:bolder;}

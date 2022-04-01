@@ -1,0 +1,49 @@
+nav {
+background:olive;
+padding:0px;	
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+padding:10px 25px;
+border:solid 1px olive;	
+line-height:50px;
+display:block;
+}
+
+nav ul li a:hover{
+color:olive;
+background:#fff;
+border:solid 1px olive;
+}
+nav ul{
+float:right;
+margin-right:40px;
+border:solid 1px #fff;
+position:relative;
+}
+
+
+nav ul ul{
+position:absolute;
+background:olive;
+top:50px;
+padding:0px;
+display:none;
+}
+
+nav ul li:hover ul{
+display:block;
+}
+
+nav ul ul li{
+	position:relative;
+	display:block;
+	border:solid 1px #fff;
+	width:;
+}
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	}

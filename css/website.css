@@ -1,0 +1,35 @@
+*{}
+
+
+.box_one{
+width:30%;height:200px;
+border:solid 2px red;
+padding:;float:left;}
+
+.box_two{
+width:30%;height:200px;
+border:solid 2px blue;
+padding:;float:left;}
+
+
+.box_three{
+width:30%;height:200px;
+border:solid 2px brown;
+padding:;float:left;}
+
+/* tag selectors */
+/**/
+article {border:solid 2px lightblue;
+color:lightblue;padding:20px;}
+b{color:brown;}
+p{color:yellow;background:#000;}
+
+h1 + p {background:blue;
+padding:10px;color:#fff;}
+
+
+
+ul li{color:yellow;}
+
+aside b{border:dashed 2px blue;
+padding:20px;color:blue;}

@@ -1,0 +1,78 @@
+html,body{padding:0px;margin:0px;}
+.form_base{text-align:center}
+
+form{padding:10px;
+display:inline-block;
+width:500px;
+border:solid gray 1px;
+border-radius:20px;
+}
+.form_base label{padding:10px 20px;
+display:inline-block;
+width:90%;
+border:solid 0px gray;
+font-size:20px;
+}
+
+.form_base select{padding:10px 20px;
+display:inline-block;
+width:90%;text-align:center;
+border:solid 1px gray;
+font-size:20px;
+}
+.form_base textarea{padding:10px 20px;
+display:inline-block;
+width:90%;text-align:center;
+border:solid 1px gray;
+font-size:20px;
+}
+
+
+
+
+
+.label_comments{padding:10px 20px;
+display:inline-block;
+width:90%;
+border:solid 0px gray;
+font-size:20px;
+}
+
+
+.form_base input[type=text],input[type=email],input[type=number]{
+padding:10px 20px;
+display:inline-block;
+width:90%;
+border:solid 1px gray;
+font-size:20px;
+border-radius:20px;
+}
+.form_base input[type=text]:focus{
+background:blue;
+color:white;font-size:18px;
+}
+
+.form_base input[type=submit],input[type=reset]{
+padding:5px 20px;
+display:inline-block;
+width:40%;
+border:solid 1px gray;
+font-size:20px;
+border-radius:20px;
+}
+
+
+.form_checkboxes{
+padding:10px;
+
+}
+
+
+.form_checkboxes label{
+	
+	padding:10px 10px;
+display:inline-block;
+width:20%;
+border:solid 0px gray;
+font-size:20px;
+}

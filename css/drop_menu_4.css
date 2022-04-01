@@ -1,0 +1,50 @@
+nav{padding:0px;
+background:brown;}
+
+nav > ul{
+	float:right;
+	margin-right:200px;
+}
+nav ul li{
+	display:relative;
+	list-style-type:none;
+	display:inline-block;
+	border:#fff 1px solid;
+	color:#fff;
+}
+
+nav ul li a{
+	display:block;
+	color:#fff;
+	padding:0px 25px;
+	background:brown;
+	line-height:70px;
+	text-decoration:none;
+	text-align:center;
+}
+
+nav ul li a:hover{
+
+	color:brown;
+	background:#fff;
+	
+}
+
+nav ul li ul{
+background:brown;
+position:absolute;
+top:80px;
+padding:0px;
+display:none;
+}
+
+nav ul li:hover ul{
+display:block;
+}
+
+nav ul ul li {
+position:relative;
+display:list-item;
+
+}
+

@@ -1,0 +1,66 @@
+
+html,body{}
+
+nav{
+	background:lightblue;
+}
+nav .main_menu{
+	float:right;
+	margin-right:150px;
+	padding:0px;
+}
+nav .main_menu li{
+	list-style-type:none;
+	display:inline-block;
+	
+	
+}
+nav .main_menu li a{
+	border:solid 1px #fff;
+	display:block;
+	padding:5px 15px;
+	text-decoration:none;
+	
+}
+
+nav .main_menu li a:hover{
+	border:lightblue 1px solid;
+	color:lightblue;
+	background:#fff;
+	
+}
+nav .main_menu li ul{
+	border:red 1px solid;
+	position:absolute;
+    top:70px;
+	padding:0px;
+	display:none;	
+	width:200px;
+	
+    	
+}
+nav .main_menu li:hover ul{
+	display:block;   	
+}
+
+nav .main_menu li ul li{
+display:inline-block;
+padding:10px;
+width:90%;
+position:relative;
+/*for positioning the li relative 
+to the ul which is overflowing*/
+/*
+top:0px;
+left:-80px;
+*/
+
+}
+
+
+
+nav .main_menu li ul a{
+	border:blue 1px solid;
+	text-align:center;
+	padding:11px 0px;
+}

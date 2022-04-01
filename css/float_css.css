@@ -1,0 +1,37 @@
+.item{
+text-align:center;
+width:30%;
+border:solid 1px purple;
+float:left;
+background:purple;
+margin:11px;
+
+}
+
+.item2{
+text-align:;
+border:solid 3px blue;
+display:inline-block;
+width:25%;height:;
+text-align:center;
+font-size:40px;
+color:blue;
+padding:50px;
+}
+
+
+.item3{
+text-align:;
+border:solid 3px red;
+text-align:center;
+font-size:40px;
+color:red;
+}
+.item span{
+	padding:50px;font-size:24px;
+	border:solid 2px lightblue;
+	display:inline-block;
+	border-radius:50px;
+	color:lightblue;
+	font-weight:bolder;
+	}

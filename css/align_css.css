@@ -1,0 +1,29 @@
+.main{padding:0px;
+margin:0px;text-align:center;}
+
+.main_sub{padding:0px;
+border:solid 0px blue;
+width:70%;
+display:inline-block;
+margin:0px;text-align:center;}
+
+
+.left img{
+border-radius:40px;
+width:90%;}
+
+.left,.right{width:42%;
+padding:20px;float:left;
+height:220px;margin:;
+border:solid 1px lightgray;}
+
+.right a{padding:11px 20px;
+display:inline-block;
+text-decoration:none;
+border-radius:25px;
+text-align:center;
+width:70%;color:lightblue;
+border:solid 1px lightblue;}
+
+.right a:hover{color:blue;
+border:solid 1px blue;}

@@ -1,0 +1,30 @@
+html,body{
+padding:0px;margin:0px;	
+}
+nav {
+	background:olive;
+	padding:0px;
+}
+
+nav ul {
+	
+	float:right;
+	margin-right:40px;
+}
+nav  ul li{
+list-style-type:none;
+display:inline-block;
+}
+nav ul li a{
+text-decoration:none;
+color:#fff;
+display:inline-block;
+padding:5px 20px;
+border:solid 1px #fff;
+}
+
+nav ul li a:hover{
+background:#fff;
+color:olive;
+cursor:pointer;;
+}

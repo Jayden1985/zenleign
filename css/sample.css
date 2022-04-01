@@ -1,0 +1,39 @@
+html,body{margin:0px;padding:0px;}
+
+.content_shell{
+border:solid #a72b03 2px;
+text-align:center;
+
+}
+.content{
+border:solid #a72b03 2px;
+height:250px;width:30%;
+line-height:40px;
+margin:10px;display:inline-block;
+text-align:center;font-size:22px;
+color:#a72b03;
+}
+
+.site_header{border:solid #a72b03 0px;
+height:450px;line-height:80px;font-weight:bolder;
+text-align:center;font-size:50px;color:#acfbdd;
+background:url('../images/b1.jpg');
+background-size:cover;
+}
+
+
+@media screen and (max-width:1100px){
+	
+.content_shell{border:solid blue 2px;}	
+.content{height:300px;width:60%;
+}
+	
+}
+@media screen and (max-width:700px){
+	
+.content_shell{border:solid blue 2px;}	
+.content{height:250px;width:70%;
+padding:20px;
+}
+	
+}
